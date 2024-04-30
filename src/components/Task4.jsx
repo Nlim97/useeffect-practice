@@ -41,6 +41,7 @@ const Task4 = () => {
         <button
           disabled={areButtonsEnabled}
           onClick={() => {
+            setSprinkle(!sprinkle)
             setToggleButton1((toggleButton1) => !toggleButton1);
           }}
         >
@@ -49,6 +50,7 @@ const Task4 = () => {
         <button
           disabled={areButtonsEnabled}
           onClick={() => {
+            setSprinkle(!sprinkle)
             setToggleButton2((toggleButton2) => !toggleButton2);
           }}
         >
@@ -57,6 +59,7 @@ const Task4 = () => {
         <button
           disabled={areButtonsEnabled}
           onClick={() => {
+            setSprinkle(!sprinkle)
             setToggleButton3((toggleButton3) => !toggleButton3);
           }}
         >
@@ -65,6 +68,7 @@ const Task4 = () => {
         <button
           disabled={areButtonsEnabled}
           onClick={() => {
+            setSprinkle(!sprinkle)
             setToggleButton4((toggleButton4) => !toggleButton4);
           }}
         >
